@@ -1,0 +1,38 @@
+[
+    {
+      "id": "1",
+      "name": "Mumbai",
+      "state": "Maharashtra"
+    },
+    {
+      "id": "2",
+      "name": "New Delhi",
+      "state": "New Delhi"
+    },
+    {
+      "id": "3",
+      "name": "Bengaluru",
+      "state": "Karnataka"
+    },
+    {
+      "id": "4",
+      "name": "Kolkata",
+      "state": "West Bengal"
+    },
+    {
+      "id": "5",
+      "name": "Ahemdabad",
+      "state": "Gujrat"
+    },
+    {
+      "id": "6",
+      "name": "Jaipur",
+      "state": "Rajasthan"
+    },
+    {
+      "id": "7",
+      "name": "Chennai",
+      "state": "Tamilnadu"
+    }
+  ]
+  
