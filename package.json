@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --ci --testResultsProcessor=jest-junit",
+    "test": "jest --no-color 2>output.txt",
     "start": "webpack-dev-server --mode development --watch --open --hot",
     "build": "webpack --mode production"
   },
@@ -12,32 +12,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cypress": "^9.5.0",
     "css-loader": "^4.3.0",
     "jest-junit": "^11.1.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "style-loader": "^1.2.1",
     "webpack-cli": "^3.3.12",
-    "@material-ui/core": "4.11.4",
-    "@material-ui/icons": "4.11.2",
-    "@material-ui/lab": "4.0.0-alpha.58",
-    "@material-ui/styles": "4.11.4",
-    "@material-ui/utils": "4.11.2",
-    "@ryancavanaugh/redux-saga": "0.9.12-alpha",
-    "enzyme": "3.11.0",
-    "enzyme-adapter-react-16": "1.15.6",
-    "jest": "27.0.5",
-    "jest-enzyme": "7.1.2",
-    "jest-styled-components": "7.0.4",
-    "props-type": "1.0.1",
-    "react-bootstrap": "1.6.1",
-    "react-redux": "7.2.4",
-    "react-router": "5.2.0",
-    "react-router-dom": "5.2.0",
-    "react-scripts": "4.0.0",
-    "redux": "4.1.0",
-    "redux-saga": "0.16.1"
+    "cypress": "^9.5.0"
   },
   "jest": {
     "moduleNameMapper": {
